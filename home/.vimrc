@@ -2,7 +2,9 @@ call pathogen#infect()
 
 set dictionary+=/usr/share/dict/words
 set swapfile
+set undofile
 set dir=~/.vimTemp
+set undodir=~/.vimUndo
 
 " Indentation
 filetype indent on
